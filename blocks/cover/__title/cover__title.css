@@ -9,7 +9,7 @@
     line-height: 106%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     .cover__title{
         width: 250px;
         font-size: 32px;

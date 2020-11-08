@@ -5,12 +5,27 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 28px;
-    padding-right: 48px;
-    padding-left: 48px;
+    max-width: 1184px;
+}
+
+@media (max-width: 1250px){
+    .header{
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+}
+
+@media (max-width: 1024px){
+    .header{
+        max-width: 928px;
+        padding-right: 48px;
+        padding-left: 48px;
+    }
 }
 
 @media (max-width: 768px){
     .header{
+        max-width: 720px;
         padding-right: 24px;
         padding-left: 24px;
     }

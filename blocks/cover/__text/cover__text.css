@@ -12,15 +12,3 @@
 .cover__text:visited {
     color: #FFFFFF;
    }
-
-@media (max-width: 768px){
-    .cover__text{
-        max-height: 134px;
-    }
-}
-
-@media (min-width: 768px){
-    .cover__text{
-        max-height: 250px;
-    }
-}
