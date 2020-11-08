@@ -1,0 +1,37 @@
+.place__image{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    max-width: 460px;
+
+}
+
+@media (max-width: 1024px){
+    .place__image{
+        max-width: 440px;
+        padding-left: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__image{
+        max-width: 340px;
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 750px){
+    .place__image{
+        max-width: 340px;
+        margin: 0 0 32px;
+    }
+}
+
+@media (max-width: 340px){
+    .place__image{
+        padding-left: 0px;
+    }
+}

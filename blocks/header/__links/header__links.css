@@ -1,0 +1,29 @@
+.header__links{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+@media (max-width: 320px){
+    .header__links{
+        width: 62px;
+        top: 30px;
+        right: 16px;
+        font-size: 18px;
+        line-height: 111%;
+    }
+}
+
+@media (min-width: 321px){
+    .header__links{
+        width: 78px;
+        top: 46px;
+        right: 24px;
+        font-size: 24px;
+        line-height: 117%;
+    }
+}

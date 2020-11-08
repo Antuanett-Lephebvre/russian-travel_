@@ -1,0 +1,16 @@
+.opacity {
+    opacity: 1;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    text-decoration: none;
+    color: #E5E5E5;
+  }
+   
+.opacity:hover {
+    opacity: 0.8;
+
+  }
+
+  .opacity:visited {
+    color:  #E5E5E5;
+   }

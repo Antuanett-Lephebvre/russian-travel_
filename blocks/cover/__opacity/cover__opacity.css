@@ -1,0 +1,38 @@
+.cover__opacity{
+    background-image: url(../../../images/cover__background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 0;
+}
+
+.cover__opacity:before {
+content: "";
+background-color: #2a2c2f;
+opacity: 0.3;
+padding-top: calc(740 / 1184 * 100%);
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+position: absolute;
+}
+    
+
+.cover__opacity::after{
+    content:"";
+    width:0;
+    height:0;
+    padding-top: calc(740 / 1184 * 100%);
+}
+
+.cover__opacity:hover:before{
+    background-color: #2a2c2f;
+    opacity: 0.8;
+}

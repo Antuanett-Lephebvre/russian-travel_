@@ -1,0 +1,26 @@
+.place{
+    font-family: 'Inter', 'Arial', sans-serif;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+@media (max-width: 1024px) {
+    .place{
+        padding-top: 73px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place{
+        padding-top: 73px;
+    }
+}
+
+@media (max-width: 750px) {
+    .place{
+        padding-top: 64px;
+    }
+}
+

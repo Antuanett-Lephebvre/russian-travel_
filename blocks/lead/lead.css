@@ -1,0 +1,17 @@
+.lead {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px){
+    .lead {
+        max-width: 928px;
+    }
+}

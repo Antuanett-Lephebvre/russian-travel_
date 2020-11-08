@@ -1,0 +1,26 @@
+.cover__text{
+    font-family: 'Inter', 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 560px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.cover__text:visited {
+    color: #FFFFFF;
+   }
+
+@media (max-width: 768px){
+    .cover__text{
+        max-height: 134px;
+    }
+}
+
+@media (min-width: 768px){
+    .cover__text{
+        max-height: 250px;
+    }
+}

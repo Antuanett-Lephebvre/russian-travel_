@@ -1,0 +1,12 @@
+.footer__links{
+    font-family: 'Inter', 'Arial', sans-serif;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (max-width: 600px){
+    .footer__links{
+        flex-direction: column;
+    }
+}

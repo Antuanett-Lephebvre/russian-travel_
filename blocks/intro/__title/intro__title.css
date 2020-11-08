@@ -1,0 +1,31 @@
+.intro__title{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 107%;
+}
+
+@media (max-width: 767px){
+    .intro__title{
+        font-size: 32px;
+        line-height: 109%;
+        margin-top: 64px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .intro__title{
+        margin-top: 88px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 1024px){
+    .intro__title{
+        margin-top: 92px;
+        margin-bottom: 40px;
+    }
+}

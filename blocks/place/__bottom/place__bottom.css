@@ -1,0 +1,12 @@
+.place__bottom{
+    display: flex;
+    padding-top: 48px;
+    align-items: flex-start;
+}
+
+@media (max-width: 750px) {
+    .place__bottom{
+        padding-bottom: 32px;
+        flex-direction: column;
+    }
+}
